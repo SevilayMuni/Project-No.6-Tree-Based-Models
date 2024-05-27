@@ -14,6 +14,9 @@ All in all, I created powerful both decision tree and random forest models and u
 - tenure
 - overwork
 
+![image5](https://github.com/SevilayMuni/Project-No.6-XGBoost-RandomForest/blob/main/graphs/Feature-Importances-Random-Forest-ChampionModel.png)
+![image6](https://github.com/SevilayMuni/Project-No.6-XGBoost-RandomForest/blob/main/graphs/Feature-Importances-Decision-Tree.png)
+
 ## Business Understanding
 The HR department at Salifort Motors wants to improve employee satisfaction levels and answer following question: what’s likely to make the employee leave the company?
 
@@ -53,29 +56,27 @@ Since the outcome variable is categorical and task is binary classification, app
     2nd Random Forest Precision Recall  F1    Accuracy  AUC
                       0.976     0.908   0.941 0.981     0.977
 ## Data Understanding
-
-- Employees in the company are overworked.
+![image1](https://github.com/SevilayMuni/Project-No.6-XGBoost-RandomForest/blob/main/graphs/Number-of-Project-feature-graphs.png)
 - Everyone with seven projects left the company, and avg. working hours of this group and those who left with six projects were noticeably higher than any other group.
-
 - Mean working hours increases with number of projects worked.
 - There are two groups of employees who left the company: 1) those who worked considerably less than their collegues with the same number of projects 2) those who worked much more. For 1) it’s possible that they were fired. Also, this group might include employees who had already given their notice and were assigned fewer hours. For 2) they probably quit. 
-
 - The optimal number of projects for employees to work on is 3; the ratio of left/stayed is very small for this group.
 
+![image2](https://github.com/SevilayMuni/Project-No.6-XGBoost-RandomForest/blob/main/graphs/Monthly-Working-Hours-vs-Promotion.png)
 - Very few employees were promoted in the last 5 years. In spite of working very long hours, few of those employees were promoted.
 - All of the employees who left the company were working the longest hours.
+- - Employees in the company are overworked.
 
+![image3](https://github.com/SevilayMuni/Project-No.6-XGBoost-RandomForest/blob/main/graphs/Satistaction-Level-and-Performance-Evaluation-Boxplots.png)
 - The mean and median satisfaction scores of employees who left are lower than those of employees who stayed.
 
+![image4](https://github.com/SevilayMuni/Project-No.6-XGBoost-RandomForest/blob/main/graphs/Satisfaction-by-Tenure.png)
 - Employees who left can be grouped under 2 categories: 1) Dissatisfied employees w/ shorter tenures 2) Very satisfied employees w/ medium-length tenures.
 - Four-year employees who left have an unusually low satisfaction level. 
 - The longest-tenured employees didn’t leave. 
 - If an employee has spent more than six years at the company, they stay.
-- 7 and 8 year tenured employees with low salary had high satisfaction level (more than their high salary earning peers). 
-*This implies that long-tenured employee satisfaction might be weakly correlated to salary.*
 
-
-- **Leaving** is linked to **longer working hours, contributing to many projects, and lower satisfaction levels.**
+- **Leaving** is linked to **long working hours, contributing to many projects, and low satisfaction levels.**
 - *Working long hours and not receive promotions or good evaluation scores might chasing employees away*
 - Employees are leaving the company as a result of poor management. 
 ## Insights
@@ -118,5 +119,3 @@ left|Whether or not the employee left the company
 promotion_last_5years|Whether or not the employee was promoted in the last 5 years
 Department|The employee's department
 salary|The employee's salary (U.S. dollars)# Project-No.6-XGBoost-RandomForest
-# Project-No.6-XGBoost-RandomForest
-# Project-No.6-XGBoost-RandomForest
