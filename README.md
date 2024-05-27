@@ -118,3 +118,4 @@ left|Whether or not the employee left the company
 promotion_last_5years|Whether or not the employee was promoted in the last 5 years
 Department|The employee's department
 salary|The employee's salary (U.S. dollars)# Project-No.6-XGBoost-RandomForest
+# Project-No.6-XGBoost-RandomForest
