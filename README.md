@@ -65,7 +65,7 @@ Since the outcome variable is categorical and task is binary classification, app
 ![image2](https://github.com/SevilayMuni/Project-No.6-XGBoost-RandomForest/blob/main/graphs/Monthly-Working-Hours-vs-Promotion.png)
 - Very few employees were promoted in the last 5 years. In spite of working very long hours, few of those employees were promoted.
 - All of the employees who left the company were working the longest hours.
-- - Employees in the company are overworked.
+- Employees in the company are overworked.
 
 ![image3](https://github.com/SevilayMuni/Project-No.6-XGBoost-RandomForest/blob/main/graphs/Satistaction-Level-and-Performance-Evaluation-Boxplots.png)
 - The mean and median satisfaction scores of employees who left are lower than those of employees who stayed.
