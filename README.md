@@ -3,19 +3,21 @@
 
 Salifort Motors wants to improve employee retention and learn what determines whether employee leave or stay in the company.
 I built logistic regression and tree-based machine learning models. The final random forest model performed with:
-- precision of 97.7%
-- recall of 92.5%
-- accuracy of 98.4%
+    
+    precision of 97.7%
+    recall of 92.5%
+    accuracy of 98.4%
 
-All in all, I created powerful both decision tree and random forest models and uncovered important variables for employee retention: 
-- satisfaction level of employee
-- performance review of employee
-- number of projects employee contributes
-- tenure
-- overwork
+All in all, I created powerful decision tree and random forest models and **uncovered important variables for employee retention**: 
 
-![image5](https://github.com/SevilayMuni/Project-No.6-XGBoost-RandomForest/blob/main/graphs/Feature-Importances-Random-Forest-ChampionModel.png)
-![image6](https://github.com/SevilayMuni/Project-No.6-XGBoost-RandomForest/blob/main/graphs/Feature-Importances-Decision-Tree.png)
+    satisfaction level of employee
+    performance review of employee
+    number of projects employee contributes
+    tenure
+    overwork
+
+[<img src="https://github.com/SevilayMuni/Project-No.6-XGBoost-RandomForest/blob/main/graphs/Feature-Importances-Random-Forest-ChampionModel.png" width="800"/>](https://github.com/SevilayMuni/Project-No.6-XGBoost-RandomForest/blob/main/graphs/Feature-Importances-Random-Forest-ChampionModel.png)
+[<img src="https://github.com/SevilayMuni/Project-No.6-XGBoost-RandomForest/blob/main/graphs/Feature-Importances-Decision-Tree.png" width="800"/>](https://github.com/SevilayMuni/Project-No.6-XGBoost-RandomForest/blob/main/graphs/Feature-Importances-Decision-Tree.png)
 
 ## Business Understanding
 The HR department at Salifort Motors wants to improve employee satisfaction levels and answer following question: what’s likely to make the employee leave the company?
@@ -42,19 +44,16 @@ Since the outcome variable is categorical and task is binary classification, app
 - Accuracy: measures the proportion of data points that are correctly classified.
 - F1-score: aggregation of precision and recall.
 
-## Model Results
-    Decision Tree    Precision  Recall  F1    Accuracy  AUC
-                     0.977      0.915   0.945  0.982     0.967
 
-    Random Forest    Precision  Recall  F1    Accuracy  AUC
-                     0.983      0.913   0.947 0.983     0.980
+## Model Results 🎉
+| Model | Precision | Recall | F1 | Accuracy | AUC |
+| --- | --- | --- | --- | --- | --- |
+| `Decision Tree` | 0.977 | 0.915 | 0.945 | 0.982 | 0.967 |
+| `Random Forest` | 0.983 | 0.913 | 0.947 | 0.983 | 0.980 |
+| `2nd Decision Tree` | 0.959 | 0.909 | 0.933 | 0.978 | 0.959 |
+| `2nd Random Forest` | 0.976 | 0.908 | 0.941 | 0.981 | 0.977 |
 
-    2nd Decision Tree Precision Recall  F1    Accuracy  AUC
-                      0.959     0.909   0.933 0.978     0.959
 
-
-    2nd Random Forest Precision Recall  F1    Accuracy  AUC
-                      0.976     0.908   0.941 0.981     0.977
 ## Data Understanding
 ![image1](https://github.com/SevilayMuni/Project-No.6-XGBoost-RandomForest/blob/main/graphs/Number-of-Project-feature-graphs.png)
 - Everyone with seven projects left the company, and avg. working hours of this group and those who left with six projects were noticeably higher than any other group.
@@ -102,7 +101,6 @@ https://www.kaggle.com/giripujar/hr-analytics
 CC0: Public Domain
 
 readme.so
-
 
 
 ## Variables
