@@ -116,4 +116,4 @@ Work_accident|Whether or not the employee experienced an accident while at work
 left|Whether or not the employee left the company
 promotion_last_5years|Whether or not the employee was promoted in the last 5 years
 Department|The employee's department
-salary|The employee's salary (U.S. dollars)# Project-No.6-XGBoost-RandomForest
+salary|The employee's salary (U.S. dollars)
